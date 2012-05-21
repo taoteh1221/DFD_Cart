@@ -1,0 +1,24 @@
+
+====================
+Coming Eventually
+====================
+
+Add session, cookie, and javascript warnings when these are disabled.
+
+Make a plugin system so it's easy for customers to install addons.
+
+Create a folder were each language's translation (english, arabic, spanish, french, russian, etc) varaibles can be put in php files.
+
+======================
+Coming in version 1.2
+======================
+
+Template support will be integrated into DFD Cart in version 1.2
+
+Fly-out / drop-in subcategory menus will be implemented into version 1.2
+
+The ability to keep an inventory count will be implemented in version 1.2
+
+Version 1.2 will have the option to export products in a customer-friendly format (besides the already-existing spreadsheet export for administration use), so distributors can make their product list available in a variety of downloadable digital formats. There will also be an option to automatically make these available in the customer area.
+
+The left side category navigation menu will have the option to not only be ordered alphabetically as it is now, but also choose the exact order you want categories to appear in.

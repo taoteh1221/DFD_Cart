@@ -1,0 +1,66 @@
+
+/*
+  DFD Cart
+  www.DFDcart.com
+  
+  DragonFrugal.com - Web Site Solutions
+
+  Copyright (c) 2007 DragonFrugal.com
+
+  Released under the GNU General Public License
+*/
+
+
+
+
+////////////////////////////////////////////////////////////
+
+DFD Cart version 1.22 Beta 4
+
+SYSTEM REQUIREMENTS:
+PHP 4.2 or greater
+MySQL 3.2 or greater
+GD 1.x or greater
+
+
+////////////////////////////////////////////////////////////
+
+
+INSTALLING:
+
+1) Decompress all files, then upload them to your web server.
+
+2) Create a MySQL database on your server, and add the table structure found in "/Docs.Etc/Database_Structure.sql", AFTER READING THE IMPORTANT INFORMATION ON UPGRADING BELOW (IF YOU ARE UPGRADING A PREVIOUS VERSION OF DFD CART, OTHERWISE YOU CAN NOW GO TO STEP 3)...
+
+IF YOU ALREADY HAVE AN EARLIER VERSION OF DFD CART INSTALLED, MAKE SURE YOU BACKUP YOUR PRODUCTS WITHIN THE ADMIN AREA'S "EXPORT" PAGE FIRST (THEN DOWNLOAD THE EXPORTED SPREADSHEET BY OPPOSITE-CLICKING IT AND "SAVE AS"), THEN DROP ALL THE OLD TABLES. FUTURE VERSIONS WILL BE MORE USER-FRIENDLY, BUT THIS IS REQUIRED FOR NOW AS MUCH BASE CODE IS STILL TO BE WRITTEN FOR VERSION 1.X. MY APOLOGIES FOR THE CURRENT INCONVENIENCE. AFTER YOU HAVE RELOADED THE SQL DATA, YOU CAN NOW IMPORT YOUR SAVED SPREADSHEET BACK INTO THE SITE WITH THE IMPORT PAGE.
+
+3) Edit the configurations in "/main.config.php".
+
+4) Chmod "/admin/backups/" , "/orders/" , and "/logs/" to "777" if your on a unix / linux system, to assure you have directory permissions to save files in these locations with DFD Cart.
+
+5) Chmod "/images/custom/" to "777", and all example images within this directory should be given a chmod of "666".
+
+6) Chmod "/fonts/" directory and all font files in it to "755" (you can add your own TTF font files here too, and they will automatically show in the admin selection list).
+
+7) Customize "header.php" and "footer.php" files inside the directory "/templates/" with any custom web site layout you wish to wrap around DFD Cart...you can also control the cart width if needed (for template compatibility) in the "configure" section of the admin web pages.
+
+////////////////////////////////////////////////////////////
+
+
+IF YOU WANT TO SECURE THINGS FURTHER THAN THE DEFAULT SECURITY SETTINGS:
+
+1) Open every php file in "/admin/", to around line 21 where the code is:
+$admin_key = "g34m8v4cv1qvb9";
+
+2) Change "g34m8v4cv1qvb9" to a unique key for yourself
+
+3) Open "/app.lib/product.control/core.php/functions.php" to around line 186 where the code is:
+$security_key = "g34m8v4cv1qvb9";
+
+4) Change "g34m8v4cv1qvb9" to the **SAME UNIQUE KEY USED IN THE ADMIN PAGES**
+
+
+////////////////////////////////////////////////////////////
+
+You should be ready to go now! Enjoy!  :)
+

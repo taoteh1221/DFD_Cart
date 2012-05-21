@@ -1,0 +1,24 @@
+
+
+/*
+  DFD Cart
+  www.DFDcart.com
+  
+  DragonFrugal.com - Web Site Solutions
+
+  Copyright (c) 2007 DragonFrugal.com
+
+  Released under the GNU General Public License
+*/
+
+
+
+body
+{ margin: 0px 0px;
+padding:0px;
+font-size: 16px;
+}
+a:link { color: #396A5C; }
+a:active { color: #c48b4e; }
+a:visited { color: #834634; }
+a:hover { color: #B76148; }

@@ -1,0 +1,98 @@
+1.1.4:
+Minor bug fixes and user-friendliness optimization
+
+1.1.5:
+Fixed set_depth exploit 
+
+
+1.1.6:
+Fixed ability for XSS exploits to occur from off-site hacking
+
+
+1.1.7:
+Fixed a bug in the latest security code
+
+
+1.1.8:
+Fixed over-tight security code to let program run better
+
+1.191:
+Minor adjustment to versioning system
+Fluid layout
+Ability to change font size
+Ability to change menu width
+Breadcrumb toggle on/off
+Optimizations and bug fixes
+
+
+1.192:
+Can toggle on/off whether a customer can choose a preferred arrival date
+More capacity to import spreadsheets of up to 1000 products at a time
+Optimizations and bug fixes
+
+1.193:
+Bug fixes
+User can add logo and company name
+header.php and footer.php files are now integrated so users can wrap their own template around DFD Cart
+User can control width of DFD Cart
+
+1.194:
+Bug fixes
+Enhanced price search to list max price, low to high
+Added the ability to toggle product ids on / off
+
+1.195:
+More width control for printing orders
+
+1.196:
+"Added on" timestamp for directories
+
+1.197:
+Fixed bug creating categories manually
+
+
+1.198:
+Fixed security bug in /admin/configure.php, and added security sanitization scanning for all DFD Cart REQUEST data
+
+
+1.199:
+Tightened security sanitization scanning for all DFD Cart REQUEST data
+
+1.2:
+Added cross-site request forgery protection
+Fixed GUI issues with category list rendering
+Fixed bug where customer's cart is corrupted after admin does a mass-import of product updates
+
+1.21 beta:
+Minor bug fixes
+
+1.22 beta 1:
+PayPal IPN integration
+
+
+1.22 beta 2:
+Minor bug fixes
+Custom fields for customer instructions per item during checkout
+
+
+1.22 beta 3:
+Paypal IPN bugfixes
+Customer account system
+Per-customer discount setting
+Records section in admin area, for editing and viewing customer accounts / order statuses, viewing logs
+
+
+
+
+1.22 beta 4:
+Fixed multiple keywords search
+Fixed order quantity update on search result lists
+
+
+
+
+
+
+
+
+
